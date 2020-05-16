@@ -7,7 +7,7 @@ class Producto{
         this.descripcion = descripcion;
         this.cantidad = cantidad;
         this.costo = costo;
-
+    }//aqui no cerraste el constructor
         showTextInfo(){
             return "ID: " + this.id + "Nombre: " + this.nombre;
         }
