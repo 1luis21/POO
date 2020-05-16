@@ -7,7 +7,8 @@ class Producto{
         this.descripcion = descripcion;
         this.cantidad = cantidad;
         this.costo = costo;
-
+        }// te falto cerrar esta llave del constructor
+        // porque no puedes meter los codigos de abajo en el constructor
         showTextInfo(){
             return "ID: " + this.id + "Nombre: " + this.nombre;
         }
@@ -21,4 +22,4 @@ class Producto{
                    Costo:this.costo}
         }
     }
-}
+//} esta llave ya no se necesita    
