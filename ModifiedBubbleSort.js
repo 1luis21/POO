@@ -1,4 +1,4 @@
-function BubbleSort(vector){
+function ModifiedBubbleSort(vector){
     const ciclo = vector.length;
     let flag = 1;
     for(let i=0; i<ciclo && flag==1; i++)
@@ -23,4 +23,4 @@ for(let i=0; i<15; i++){
     vec[i] = Math.floor(Math.random()*100);
 }
 
-console.log(BubbleSort(vec));
+console.log(ModifiedBubbleSort(vec));
