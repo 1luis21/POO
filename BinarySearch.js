@@ -20,4 +20,4 @@ function BinarySearch(value, list){
     return position;
 }
 
-console.log(BinarySearch(78,[4,7,9,10,4,8,19,44,78,90,34,56,32]));
+console.log(BinarySearch(78,[4,7,9,10,4,8,19,44,78,90,34,56,32,1,44,1,89,34,23,20]));
