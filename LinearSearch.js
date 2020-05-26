@@ -15,4 +15,4 @@ function LinearSearch(value, list){
 }
 
 
-console.log(LinearSearch(4,[-4,7,9,10,4,8]));
+console.log(LinearSearch(10,[4,7,9,10,4,8,1,66,7,2,45,2,89,23,6,2,721,6,1]));
